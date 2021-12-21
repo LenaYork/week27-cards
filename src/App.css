@@ -1,0 +1,21 @@
+.App {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 5%;
+  background-color: lime;
+}
+
+.Cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #585806;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}

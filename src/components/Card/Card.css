@@ -1,0 +1,18 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    border: 1px solid #3f3f05;
+    text-align: center;
+    background-color: #999595;
+}
+
+.Card p {
+    border-bottom: 1px solid white;
+}
+
+.Card:nth-child(3) {
+    border: 5px solid #740303;
+    font-weight: bolder;
+}
+
