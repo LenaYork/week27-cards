@@ -3,9 +3,9 @@ import "./Card.css";
 export function Card(props) {
     return(
         <div className="Card">
-            <CardHeader price={props.price}/>
-            <CardPrice price={props.price}/>
-            <CardSpeed speed={props.speed}/>
+            <CardHeader price={props.price} color={props.color}/>
+            <CardPrice price={props.price} color={props.color}/>
+            <CardSpeed speed={props.speed} />
             <CardTraffic /> 
         </div>
     )
@@ -15,13 +15,13 @@ function CardHeader(props) {
     // let innerText = {'Безлимитный ${props.price}'}
     return(
     //   <p>Безлимитный {${props.price}}</p>
-    <p>Безлимитный {props.price}</p>
+    <p className={props.color}>Безлимитный {props.price}</p>
     )
 }
 
 function CardPrice(props) {
     return(
-        <p>{props.price} руб/мес</p>
+        <p className={props.color}>{props.price} руб/мес</p>
     )
 }
 

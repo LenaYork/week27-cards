@@ -16,3 +16,22 @@
     font-weight: bolder;
 }
 
+.turquoise {
+    background-color: turquoise;
+}
+
+.green {
+    background-color: green;    
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: #494747;
+}
+
+.Card:hover {
+    cursor: pointer;
+}
