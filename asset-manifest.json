@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/week27-cards/static/css/main.9289b782.css",
+    "main.js": "/week27-cards/static/js/main.1d20753d.js",
+    "static/js/787.8d1bea4f.chunk.js": "/week27-cards/static/js/787.8d1bea4f.chunk.js",
+    "index.html": "/week27-cards/index.html",
+    "main.9289b782.css.map": "/week27-cards/static/css/main.9289b782.css.map",
+    "main.1d20753d.js.map": "/week27-cards/static/js/main.1d20753d.js.map",
+    "787.8d1bea4f.chunk.js.map": "/week27-cards/static/js/787.8d1bea4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9289b782.css",
+    "static/js/main.1d20753d.js"
+  ]
+}
